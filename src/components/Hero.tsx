@@ -20,10 +20,10 @@ export default function Hero() {
       <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col justify-center sm:justify-between px-6 py-16 sm:px-8 lg:px-12">
 
         {/* TEXTO */}
-        <div className="max-w-2xl text-white  sm:text-left">
-          <h1 className="mt-12 font-serif text-5xl font-bold leading-tight sm:text-5xl lg:text-7xl">
+        <div className="max-w-2xl text-white sm:text-left">
+          <h1 className="mt-12 font-amatic text-5xl font-bold leading-tight sm:text-5xl lg:text-7xl">
             O sabor que transforma qualquer momento em{" "}
-            <span className="text-[#c47000] font-semibold drop-shadow-sm">
+            <span className="text-amber-600 font-bold drop-shadow-sm">
               inesquecível
             </span>
           </h1>
@@ -39,18 +39,19 @@ export default function Hero() {
           {/* Cardápio (principal) */}
           <a
             href="#cardapio"
-            className="inline-flex items-center justify-center rounded-full bg-[#c47000] px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-[#b36200] hover:scale-105 active:scale-95 sm:text-base"
-            >
-            Ver cardápio
-        </a>
+            className="inline-flex items-center justify-center rounded-full bg-amber-500 px-6 py-3 text-sm font-semibold text-black transition-all duration-300 hover:bg-amber-500 hover:scale-105 active:scale-95 sm:text-base"
+          >
+            Ver Menu
+          </a>
 
           {/* Encomendar (secundário) */}
           <a
             href="https://wa.me/5583999098009?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda%20de%20pudim"
             target="_blank"
-            className="inline-flex items-center justify-center gap-2 rounded-full border border-white/70 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 rounded-full border border-amber-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
           >
-             <MessageCircle className="h-5 w-5" />
+            <MessageCircle className="h-5 w-5  text-amber-600" />
             Encomendar no Whatsapp
           </a>
 

@@ -37,8 +37,8 @@ export default function Cardapio() {
         </p>
 
         {/* Título */}
-        <h2 className="mt-2 text-center font-serif text-4xl font-bold text-gray-900 sm:text-5xl">
-          Cardápio de Pudins
+        <h2 className="mt-2 text-center text-4xl font-bold text-gray-900 sm:text-5xl">
+          Menu de Pudins
         </h2>
 
         {/* Grid */}
@@ -48,7 +48,7 @@ export default function Cardapio() {
               key={index}
               className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition hover:shadow-md"
             >
-              <h3 className="text-lg font-semibold text-gray-900">
+              <h3 className="text-lg font-bold text-gray-900">
                 {item.nome}
               </h3>
 
