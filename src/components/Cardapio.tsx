@@ -4,7 +4,7 @@ export default function Cardapio() {
   const pudins = [
   {
     nome: "Pudim Tradicional",
-    preco: "R$ 12,00",
+    preco: "R$ 11,00",
     descricao:
       "O clássico perfeito: textura cremosa, lisinha e com uma calda de caramelo dourada que derrete na boca.",
   },
@@ -15,17 +15,11 @@ export default function Cardapio() {
       "Combinação marcante de café suave com cremosidade equilibrada, ideal para quem gosta de um sabor mais intenso e sofisticado.",
   },
   {
-    nome: "Pudim de Milho Verde",
-    preco: "R$ 12,00",
+    nome: "Din-Din Gourmet de Pudim",
+    preco: "R$ 06,00",
     descricao:
-      "Sabor caseiro e delicado de milho verde, com textura extremamente cremosa e aquele gostinho de receita feita no interior.",
-  },
-  {
-    nome: "Pudim de Paçoca",
-    preco: "R$ 12,00",
-    descricao:
-      "Doce e equilibrado, com o sabor característico da paçoca e uma textura cremosa que lembra festa junina o ano inteiro.",
-  },
+       "A refrescância do din-din com o sabor irresistível do nosso pudim artesanal: cremoso, geladinho e perfeito para adoçar qualquer momento.",
+  }
 ];
 
   return (
