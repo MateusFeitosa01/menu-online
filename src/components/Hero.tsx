@@ -21,7 +21,7 @@ export default function Hero() {
 
         {/* TEXTO */}
         <div className="max-w-2xl text-white sm:text-left">
-          <h1 className="mt-12 font-amatic text-5xl font-bold leading-tight sm:text-5xl lg:text-7xl">
+          <h1 className="mt-12 font-amatic text-6xl font-bold leading-tight sm:text-5xl lg:text-7xl">
             O sabor que transforma qualquer momento em{" "}
             <span className="text-amber-600 font-bold drop-shadow-sm">
               inesquecível
